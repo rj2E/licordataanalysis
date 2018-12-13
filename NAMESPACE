@@ -1,0 +1,7 @@
+export(cleandata, graphPack, analysis)
+
+importFrom("ggplot2", "ggplot", "aes_string", "aes", "geom_bar", "scale_x_discrete", "geom_errorbar", "position_dodge", "theme",
+           "element_line", "element_blank", "element_text", "scale_fill_manual", "geom_point", "scale_shape_manual",
+           "labs")
+importFrom("stats", "sd", "t.test")
+importFrom ("utils", "write.csv")

@@ -1,0 +1,14 @@
+Package: licordataanalysis
+Version: 0.0
+Date: 2018-12-13
+Title: Licor data filtering and analysis
+Authors@R: person("Robert", "Twohey III", role = c("aut", "cre"),
+                  email = "twohey2@illinois.edu")
+Author: Robert Twohey III [aut, cre]
+Maintainer: Robert Twohey III <twohey2@illinois.edu>
+Imports: ggplot2,stats, utils
+Description: This package includes functions to clean and filter raw licor data,
+  graph responses of gsw and A to altering CO2 levels, and determine significance between two genotypes.
+Url: https://github.com/rj2E/Licor-data-analysis
+License: GPL-3
+
