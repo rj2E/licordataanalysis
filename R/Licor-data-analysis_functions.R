@@ -185,7 +185,7 @@ graphaverages <- function(meangen1, meangen2){
           panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
           panel.background = element_blank(), axis.line = element_blank(),
-          axis.text = element_text(size=12),axis.title = element_text(size=12)) +
+          axis.text = element_text(size = 12),axis.title = element_text(size = 12)) +
     theme(legend.position = ('none')) +
     scale_fill_manual(values = c("#999999", "#E69F00", "#56B4E9"))
     
